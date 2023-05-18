@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Calculator</h1>
+        <div class="input-container">
+            <input type="text" id="temperature" placeholder="Enter temperature"> <!-- Input field to enter the temperature value -->
+        </div>
+        <div class="results-container">
+            <h2>Result</h2> <!-- Result heading: Indicates the section where the temperature results will be displayed -->
+            <div id="currentScaleSubtitle"></div> <!-- Placeholder for the current temperature scale subtitle -->
+            <ul>
+                <li>Celsius</li> <!-- List item for Celsius scale -->
+                <li>Fahrenheit</li> <!-- List item for Fahrenheit scale -->
+                <li>Kelvin</li> <!-- List item for Kelvin scale -->
+            </ul>
+            <div id="temperatureResults">
+                <p id="celsius" class="result">-</p> <!-- Displays the converted temperature in Celsius -->
+                <p id="fahrenheit" class="result">-</p> <!-- Displays the converted temperature in Fahrenheit -->
+                <p id="kelvin" class="result">-</p> <!-- Displays the converted temperature in Kelvin -->
+            </div>            
+        </div>
+        <div class="tutorial-container">
+          <h2>Guia Rápido</h2>
+          <p> Para utilizar o calculador de temperatura, é bem simples. Basta inserir a temperatura que você já sabe (seja em Celsius, Fahrenheit ou Kelvin), com o número seguido da letra que representa a escala, como, por exemplo "23C". Depois, é só ver a mágica do Javascript fazer o resto!</p> <!-- Quick guide for using the temperature calculator -->
+        </div>
+    </div>
+    <script src="root.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>

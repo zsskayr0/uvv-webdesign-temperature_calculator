@@ -1,0 +1,98 @@
+/* Body Styles */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    transition: background-color 0.5s ease;
+    background-color: rgb(232, 232, 224); /* Background color for the body */
+  }
+  
+  /* Container Styles */
+  .container {
+    text-align: center;
+    backdrop-filter: blur(10px); /* Adds a blur effect to the container */
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: black; /* Color for the heading */
+  }
+  
+  /* Input Container Styles */
+  .input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5); /* Background color for the input container */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  input {
+    border: none;
+    background: none;
+    font-size: 24px;
+    width: 200px;
+    outline: none;
+    text-align: center;
+  }
+  
+  /* Results Container Styles */
+  .results-container {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Background color for the results container */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    font-size: 20px;
+  }
+  
+  #temperatureResults {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  
+  /* Tutorial Container Styles */
+  .tutorial-container {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Background color for the tutorial container */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .tutorial-container p {
+    text-align: justify; /* Justify text alignment for the paragraphs within the tutorial container */
+  }
+  
+  /* Paragraph Styles */
+  p {
+    margin: 0;
+  }
+  
