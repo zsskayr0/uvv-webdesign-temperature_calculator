@@ -1,9 +1,13 @@
-/* Body Styles */
-body {
+/* Importação da fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+  /* Body Styles */
+  body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 80vh;
+    font-family: 'Open Sans', sans-serif;
     transition: background-color 0.5s ease;
     background-color: rgb(232, 232, 224); /* Background color for the body */
   }
@@ -18,7 +22,7 @@ body {
   }
   
   h1 {
-    font-size: 36px;
+    font-size: 32px;
     color: black; /* Color for the heading */
   }
   
@@ -36,7 +40,7 @@ body {
   input {
     border: none;
     background: none;
-    font-size: 24px;
+    font-size: 20px;
     width: 200px;
     outline: none;
     text-align: center;
@@ -55,7 +59,7 @@ body {
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   
   ul {
@@ -66,7 +70,7 @@ body {
   }
   
   li {
-    font-size: 20px;
+    font-size: 18px;
   }
   
   #temperatureResults {
@@ -94,5 +98,15 @@ body {
   /* Paragraph Styles */
   p {
     margin: 0;
+    font-size: 14px;
   }
   
+  body {
+    animation: fade 0.5s;
+    transition-timing-function: ease;
+  }
+  
+  @keyframes fade {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
